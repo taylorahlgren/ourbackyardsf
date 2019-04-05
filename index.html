@@ -22,8 +22,13 @@
         margin-top: 5%
       }
 
-      .jumbotron{
+      .jumbotron-safe{
        background-image: url('images/skyline.jpg');
+       background-size: cover;
+      }
+
+      .jumbotron-safer{
+       background-image: url('images/skyline2.jpg');
        background-size: cover;
       }
 
@@ -55,7 +60,7 @@
     <div class="container-fluid" style="position: absolute;">
       <div class="row h-100">
         
-        <div class="col jumbotron textstyle">
+        <div class="col jumbotron-safe textstyle">
           <div class="row">
             <div class="col">
               <h1>SAFE</h1>
@@ -103,7 +108,7 @@
           </div>
         </div>
 
-        <div class="col jumbotron textstyle">
+        <div class="col jumbotron-safer textstyle">
           <div class="row">
             <div class="col">
               <h1>SAFER</h1>
